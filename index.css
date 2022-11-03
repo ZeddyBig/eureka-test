@@ -1,0 +1,46 @@
+@import url(vendors/normalize.css);
+@import url(vendors/fonts/fonts.css);
+@import url(blocks/body-color/body-color.css);
+@import url(blocks/page/page.css);
+/*-- HEADER --*/
+@import url(blocks/header/header.css);
+@import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__logo-image/header__logo-image.css);
+@import url(blocks/header/__phone/header__phone.css);
+@import url(blocks/header/__phone-img/header__phone-img.css);
+@import url(blocks/header/__phone-text/header__phone-text.css);
+@import url(blocks/header/__buttons/header__buttons.css);
+@import url(blocks/button/button.css);
+@import url(blocks/header/__user-img/header__user-img.css);
+@import url(blocks/header/__right-part/header__right-part.css);
+/*-- NAV --*/
+@import url(blocks/nav/nav.css);
+@import url(blocks/nav/__list/nav__list.css);
+@import url(blocks/nav/__element/nav__element.css);
+@import url(blocks/nav/__link/nav__link.css);
+@import url(blocks/nav/__sublist/nav__sublist.css);
+@import url(blocks/nav/__subelement/nav__subelement.css);
+/*-- OFFER --*/
+@import url(blocks/offer/offer.css);
+@import url(blocks/offer/__header/offer__header.css);
+@import url(blocks/offer/__form/offer__form.css);
+@import url(blocks/offer/__form-header/offer__form-header.css);
+@import url(blocks/offer/__form-header/_blue/offer__form-header_blue.css);
+@import url(blocks/offer/__form-inputs/offer__form-inputs.css);
+@import url(blocks/offer/__form-label/offer__form-label.css);
+@import url(blocks/offer/__form-input/offer__form-input.css);
+@import url(blocks/offer/__form-button/offer__form-button.css);
+@import url(blocks/offer/__form-checkbox-label/offer__form-checkbox-label.css);
+@import url(blocks/offer/__form-checkbox/offer__form-checkbox.css);
+
+/*-- ABOUT WORK --*/
+@import url(blocks/about-work/about-work.css);
+@import url(blocks/heading/heading.css);
+@import url(blocks/about-work/__cards/about-work__cards.css);
+@import url(blocks/about-work/__card/about-work__card.css);
+@import url(blocks/about-work/__top/about-work__top.css);
+@import url(blocks/about-work/__image/about-work__image.css);
+@import url(blocks/about-work/__time/about-work__time.css);
+@import url(blocks/about-work/__vector/about-work__vector.css);
+@import url(blocks/about-work/__card-title/about-work__card-title.css);
+@import url(blocks/about-work/__card-text/about-work__card-text.css);

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Тестовое задание для Эврики">
+	<meta name="keywords" content="html, css, js">
+	<meta name="author" content="Юрий Четвериков">
+    <link rel="stylesheet" type="text/css" href="index.css">
+	<title>Эврика. Тестовое задание</title>
+</head>
+<body class="body-color">
+    <div class="page">
+        <header class="header">
+            <a href="#" class="header__logo">
+				<img src="images/logo.png" alt="Логотип" class="header__logo-image">
+			</a>
+            <div class="header__right-part">
+                <div class="header__phone">
+                    <img src="images/phone.svg" alt="Телефон" class="header__phone-img">
+                    <p class="header__phone-text">8 (495) 127-82-80</p>
+                </div>
+                <div class="header__buttons">
+                    <button type="button" class="button header__button_contact-us">Напишите нам</button>
+                    <button type="button" class="button header__button_profile">
+                        <img src="images/user.svg" alt="Пользователь" class="header__user-img">
+                        Личный кабинет
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__element">
+                    <a href="#" class="nav__link">Доставка топлива</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#" class="nav__link">
+                        Топливные карты
+                        <img src="images/arrow.svg" alt="Стрелка вниз" class="nav__arrow">
+                        <ul class="nav__sublist">
+                            <li><a href="#" class="nav__link nav__subelement">Карта 1</a></li>
+                            <li><a href="#" class="nav__link nav__subelement">Карта 2</a></li>
+                            <li><a href="#" class="nav__link nav__subelement">Карта 3</a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="nav__element">
+                    <a href="#" class="nav__link">
+                        АЗС
+                        <img src="images/arrow.svg" alt="Стрелка вниз" class="nav__arrow">
+                        <ul class="nav__sublist">
+                            <li><a href="#" class="nav__link nav__subelement">АЗС 1</a></li>
+                            <li><a href="#" class="nav__link nav__subelement">АЗС 2</a></li>
+                            <li><a href="#" class="nav__link nav__subelement">АЗС 3</a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="nav__element">
+                    <a href="#" class="nav__link">Цены на топливо</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#" class="nav__link">
+                        О компании
+                        <img src="images/arrow.svg" alt="Стрелка вниз" class="nav__arrow">
+                        <ul class="nav__sublist">
+                            <li><a href="#" class="nav__link nav__subelement">О компании 1</a></li>
+                            <li><a href="#" class="nav__link nav__subelement">О компании 2</a></li>
+                            <li><a href="#" class="nav__link nav__subelement">О компании 3</a></li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="nav__element">
+                    <a href="#" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="offer">
+            <h1 class="offer__header">Доставка топлива</h1>
+            <form class="offer__form">
+                <h3 class="offer__form-header">Быстрый <span class="offer__form-header_blue">заказ топлива</span></h3>
+                <div class="offer__form-inputs">
+                    <label class="offer__form-label">
+                        Ваше имя
+                        <input type="text" placeholder="Имя" required class="offer__form-input">
+                    </label>
+                    <label class="offer__form-label">
+                        Номер телефона
+                        <input type="tel" placeholder="+7 (___) ___-__-__" required class="offer__form-input">
+                    </label>
+                    <button type="submit" class="button offer__form-button">Заказать топливо</button>
+                </div>
+                <label class="offer__form-checkbox-label">
+                    <input type="checkbox" class="offer__form-checkbox">
+                    Я согласен с условиями обработки данных
+                </label>   
+            </form>
+        </section>
+
+        <section class="about-work">
+            <h2 class="heading heading_about-work">Как мы работаем</h2>
+            <ul class="about-work__cards">
+                <li class="about-work__card">
+                    <div class="about-work__top">
+                        <img src="images/click.svg" alt="Клик" class="about-work__image">
+                        <div class="about-work__top-right">
+                            <p class="about-work__time">1-3 мин.</p>
+                            <img src="images/vector.svg" alt="Стрелка" class="about-work__vector">
+                        </div>
+                    </div>
+                    <h3 class="about-work__card-title">Оформление заявки</h3>
+                    <p class="about-work__card-text">Заполните заявку на сайте, укажите удобное для вас место приезда заправщика, сорт и количество топлива, которое хотите купить</p>
+                </li>
+                <li class="about-work__card">
+
+                </li>
+                <li class="about-work__card">
+
+                </li>
+            </ul>
+        </section>
+
+    </div>
+    
+</body>
+</html>

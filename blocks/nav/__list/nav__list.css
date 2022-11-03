@@ -1,0 +1,26 @@
+.nav__list {
+    max-width: 1120px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 60px;
+    align-items: center;
+}
+
+.nav__list li {
+    position: relative;
+}
+
+.nav__list ul {
+    position: absolute;
+    display: none;
+    left: -5px;
+    top: 100%;
+    padding: 0;
+}
+
+.nav__list li:hover ul {
+    display: block;
+}

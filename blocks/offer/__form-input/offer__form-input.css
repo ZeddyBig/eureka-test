@@ -1,0 +1,12 @@
+.offer__form-input {
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #565656;
+    padding: 13px 15px 16px;
+    min-width: 241px;
+    max-height: 15px;
+    margin: 8px 0 0;
+}

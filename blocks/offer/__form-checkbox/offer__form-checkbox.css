@@ -1,0 +1,28 @@
+.offer__form-checkbox {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background: #F9F9F9;
+    border: 1px solid #D5D5D5;
+    margin: 0 16px 0 0;
+}
+
+.offer__form-checkbox::after {
+    content:url(../../../images/check.svg);
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.offer__form-checkbox:hover {
+    background: #f7f1f1;
+    cursor: pointer;
+}
+
+.offer__form-checkbox:checked {
+    background: #F9F9F9;
+}
+
+.offer__form-checkbox:checked::after {
+    display: block;
+}
